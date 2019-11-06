@@ -37,3 +37,20 @@ font-style: normal;
 .flaticon-interior-design:before { content: "\f103"; }
 .flaticon-sit-down:before { content: "\f104"; }
 .flaticon-turned-off:before { content: "\f105"; }
+.flaticon-fit:before {
+  content: "\f100"; }
+
+.flaticon-gym-1:before {
+  content: "\f101"; }
+
+.flaticon-gym:before {
+  content: "\f102"; }
+
+.flaticon-vegetables:before {
+  content: "\f103"; }
+
+.flaticon-fruit-juice:before {
+  content: "\f104"; }
+
+.flaticon-stationary-bike:before {
+  content: "\f105"; }

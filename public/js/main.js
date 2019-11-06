@@ -188,6 +188,39 @@ jQuery(document).ready(function($) {
 	    }
 		});
 
+    if ( $('.nonloop-block-14').length > 0 ) {
+      $('.nonloop-block-14').owlCarousel({
+        center: false,
+        items: 1,
+        loop: true,
+        stagePadding: 30,
+        margin: 0,
+        autoplay: true,
+        smartSpeed: 1000,
+        nav: true,
+        navText: ['<span class="icon-arrow_back">', '<span class="icon-arrow_forward">'],
+        responsive:{
+          600:{
+            margin: 20,
+            nav: true,
+            items: 2
+          },
+          1000:{
+            margin: 30,
+            
+            nav: true,
+            items: 2
+          },
+          1200:{
+            margin: 30,
+            
+            nav: true,
+            items: 3
+          }
+        }
+      });
+    }
+
 		if ( $('.slide-one-item').length > 0 ) {
 			$('.slide-one-item').owlCarousel({
 		    items: 1,
